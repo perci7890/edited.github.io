@@ -98650,7 +98650,7 @@ A.a8o.prototype={
 BE(){var s=0,r=A.y(t.Py),q,p,o,n
 var $async$BE=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.aON(A.eS("http://localhost:3000/api/chapter/getChapter",0,null)),$async$BE)
+return A.B(A.aON(A.eS("http://54.80.143.7/api/chapter/getChapter",0,null)),$async$BE)
 case 3:o=b
 n=o.b
 if(n===200){p=B.bC.dz(0,A.aOA(J.bb(A.aMS(o.e).c.a,"charset")).dz(0,o.w))
@@ -98670,7 +98670,7 @@ return A.x($async$BE,r)},
 BF(a,b){var s=0,r=A.y(t.z),q,p,o,n
 var $async$BF=A.z(function(c,d){if(c===1)return A.v(d,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.aON(A.eS("http://localhost:3000/api/chapter/currentChapter/"+a+"/"+b,0,null)),$async$BF)
+return A.B(A.aON(A.eS("http://54.80.143.7/api/chapter/currentChapter/"+a+"/"+b,0,null)),$async$BF)
 case 3:o=d
 n=o.b
 if(n===200){p=B.bC.dz(0,A.aOA(J.bb(A.aMS(o.e).c.a,"charset")).dz(0,o.w))
