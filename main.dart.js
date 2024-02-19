@@ -51274,7 +51274,7 @@ $2(a,b){var s=null,r=this.a,q=r.c[b],p=A.a([],t.p)
 r=q===r.d
 if(r)p.push(A.fF(B.nB,this.b,s,20))
 else p.push(A.bO(s,s,B.l,s,s,s,s,s,s,20))
-p.push(B.a2k)
+p.push(B.a2l)
 p.push(A.iA(B.d.j(q),s,s,s,s,s,s,s))
 return A.aEm(!0,s,new A.aio(a,q),r,s,A.ir(p,B.S,B.a8,B.ab))},
 $S:155}
@@ -98513,7 +98513,7 @@ q=l.e
 p=l.Q
 o=A.X(p).h("a0<1,o9<P>>")
 n=t.p
-r=A.ir(A.a([B.a2l,A.bO(k,new A.Bm(new A.ve(A.ae(new A.a0(p,new A.arH(),o),!0,o.h("bd.E")),q,B.a7b,new A.arI(l),!0,B.EJ,B.Le,B.K3,k,t.s3),k),B.l,k,k,B.Dk,3.5*r.a.b/100,k,k,k)],n),B.S,B.a8,B.ab)
+r=A.ir(A.a([B.a2k,A.bO(k,new A.Bm(new A.ve(A.ae(new A.a0(p,new A.arH(),o),!0,o.h("bd.E")),q,B.a7b,new A.arI(l),!0,B.EJ,B.Le,B.K3,k,t.s3),k),B.l,k,k,B.Dk,3.5*r.a.b/100,k,k,k)],n),B.S,B.a8,B.ab)
 q=l.r.length
 h=A.hZ(A.a([new A.c2(h.a.a,i,new A.DT(l.x,new A.UR(new A.arJ(l),q,!0,!0,!0,k),k),k)],n),B.S,B.a8,B.ab,k,B.ay)
 j=A.bw(a,k,j).w
@@ -98650,7 +98650,7 @@ A.a8o.prototype={
 BE(){var s=0,r=A.y(t.Py),q,p,o,n
 var $async$BE=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.aON(A.eS("http://54.80.143.7/api/chapter/getChapter",0,null)),$async$BE)
+return A.B(A.aON(A.eS("localhost:3000/api/chapter/getChapter",0,null)),$async$BE)
 case 3:o=b
 n=o.b
 if(n===200){p=B.bC.dz(0,A.aOA(J.bb(A.aMS(o.e).c.a,"charset")).dz(0,o.w))
@@ -98670,7 +98670,7 @@ return A.x($async$BE,r)},
 BF(a,b){var s=0,r=A.y(t.z),q,p,o,n
 var $async$BF=A.z(function(c,d){if(c===1)return A.v(d,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.aON(A.eS("http://54.80.143.7/api/chapter/currentChapter/"+a+"/"+b,0,null)),$async$BF)
+return A.B(A.aON(A.eS("localhost:3000/api/chapter/currentChapter/"+a+"/"+b,0,null)),$async$BF)
 case 3:o=d
 n=o.b
 if(n===200){p=B.bC.dz(0,A.aOA(J.bb(A.aMS(o.e).c.a,"charset")).dz(0,o.w))
@@ -102787,9 +102787,9 @@ B.dM=new A.i1(null,B.JU,null,null,null,null)
 B.K1=new A.Bl(null,null,null,null,null,null,null,null)
 B.aaD=new A.aaH(0,"textDirection")
 B.K2=new A.Bn(null,null,null)
-B.YD=new A.h(-10,-10)
+B.YF=new A.h(-4,0)
 B.LG=new A.h9(0.25,0.5,B.B)
-B.K3=new A.aaI(200,100,B.YD)
+B.K3=new A.aaI(200,100,B.YF)
 B.at=new A.aF(1e5)
 B.cT=new A.aF(1e6)
 B.K4=new A.aF(12e5)
@@ -103523,12 +103523,12 @@ B.OH=A.a(s(["C","D","A","T","A","["]),t.s)
 B.OL=A.a(s([11,65534,65535,131070,131071,196606,196607,262142,262143,327678,327679,393214,393215,458750,458751,524286,524287,589822,589823,655358,655359,720894,720895,786430,786431,851966,851967,917502,917503,983038,983039,1048574,1048575,1114110,1114111]),t.t)
 B.el=new A.h(1,0)
 B.VU=new A.h(1,1)
-B.YE=new A.h(-1,1)
+B.YD=new A.h(-1,1)
 B.v9=new A.h(-1,0)
-B.YF=new A.h(-1,-1)
+B.YE=new A.h(-1,-1)
 B.uK=new A.h(0,-1)
 B.VV=new A.h(1,-1)
-B.fI=A.a(s([B.el,B.VU,B.b0,B.YE,B.v9,B.YF,B.uK,B.VV]),t.g)
+B.fI=A.a(s([B.el,B.VU,B.b0,B.YD,B.v9,B.YE,B.uK,B.VV]),t.g)
 B.og=A.a(s(["style","script","xmp","iframe","noembed","noframes","noscript"]),t.s)
 B.fJ=A.a(s([0,0,65490,45055,65535,34815,65534,18431]),t.t)
 B.ed=new A.ib(0,"controlModifier")
@@ -105163,8 +105163,8 @@ B.a2h=new A.V(428,926)
 B.a2i=new A.V(475,812)
 B.a2j=new A.V(873,1770)
 B.a1=new A.c2(0,0,null,null)
-B.a2k=new A.c2(16,null,null,null)
-B.a2l=new A.c2(5,null,null,null)
+B.a2k=new A.c2(15,null,null,null)
+B.a2l=new A.c2(16,null,null,null)
 B.a2m=new A.c2(null,10,null,null)
 B.bu=new A.c2(null,null,null,null)
 B.a2n=new A.xe(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
